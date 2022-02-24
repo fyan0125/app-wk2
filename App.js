@@ -9,7 +9,7 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <LinearGradient
         // Background Linear Gradient
-        colors={['#ECB4B2', '#1D1818']}
+        colors={['#A06F6D', '#1D1818']}
         style={styles.container}
       >
       <StatusBar />
