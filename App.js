@@ -6,23 +6,24 @@ import AlbumList from "./src/components/AlbumList";
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <LinearGradient
-        // Background Linear Gradient
-        colors={['#A06F6D', '#1D1818']}
-        style={styles.container}
-      >
-      <StatusBar />
-      <Header />
-      <AlbumList />
-      </LinearGradient>
-    </SafeAreaView>
+      <SafeAreaView style={styles.container}>
+        <LinearGradient
+          // Background Linear Gradient
+          colors={['#A06F6D', '#1D1818']}
+          style={styles.container}
+        >
+        <StatusBar />
+        <Header />
+        <AlbumList />
+        </LinearGradient>
+      </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#644343',
   },
 });
 
